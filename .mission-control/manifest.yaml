@@ -1,0 +1,33 @@
+version: 1
+name: resline.github.io
+tagline: Minimalna strona GitHub Pages wyświetlająca dwa kolory w postaci obrazków PNG.
+description: >
+  resline.github.io to repozytorium typu GitHub Pages (user.github.io) należące do użytkownika resline. Strona jest bardzo prosta — składa się z jednego pliku index.html oraz dwóch małych obrazków gray.png i orange.png. Nie zawiera żadnych skryptów, arkuszy stylów ani treści tekstowej poza nagłówkiem i podpisami.
+
+
+  Strona index.html nosi tytuł "Colors Display". W sekcji body wyświetla nagłówek drugiego stopnia "Colors:", a następnie dwa akapity z etykietami "Gray:" i "Orange:", pod którymi umieszczone są obrazki 50×50 pikseli odpowiadające kolorom szaremu i pomarańczowemu. Całość działa jako statyczna strona HTML serwowana przez GitHub Pages pod adresem https://resline.github.io.
+
+
+  Projekt ma charakter demonstracyjny lub testowy — nie pełni żadnej zaawansowanej funkcji. Może służyć jako weryfikacja działania GitHub Pages dla konta resline lub jako minimalny szablon do dalszych eksperymentów z publikacją statycznych stron.
+features:
+  - name: Wyświetlanie kolorów
+    description: Strona prezentuje dwa kolory (szary i pomarańczowy) w formie obrazków PNG o wymiarach 50×50 pikseli.
+    status: done
+  - name: Statyczny hosting GitHub Pages
+    description: Repozytorium typu user.github.io jest automatycznie publikowane jako strona pod adresem https://resline.github.io.
+    status: done
+  - name: Responsywny viewport
+    description: Strona zawiera meta viewport dopasowujące szerokość do urządzenia, co umożliwia poprawne wyświetlanie na mobile.
+    status: done
+stack:
+  languages: [HTML]
+  frameworks: []
+  infra: [GitHub Pages]
+links:
+  live: https://resline.github.io
+status: active
+tags: [github-pages, static-site, html, demo, colors]
+ai:
+  generated_at: "2026-07-19T00:00:00Z"
+  source_commit: "e2248e878c701d0ec712b317dd2a4f2c4f2af2cf"
+locked: []
